@@ -15,7 +15,7 @@ To identify root causes of customer churn and provide data-driven recommendation
 
 ## Dataset
 
-The dataset includes customer demographics, service usage, satisfaction scores, churn reasons, and financial metrics such as revenue and CLTV.
+The dataset includes customer demographics, service usage, satisfaction scores, churn reasons, and financial metrics such as revenue and CLTV. he dataset used for analysis is available in the `data/train.csv` file.
 
 ## Key Analysis Performed
 
