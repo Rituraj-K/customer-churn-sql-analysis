@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project focuses on analyzing customer churn using SQL to identify key drivers of customer attrition and measure business impact. The analysis emphasizes customer experience, competitive factors, and revenue loss.
+This project analyzes customer churn data using SQL to identify key drivers of customer attrition, understand customer experience patterns, and quantify business impact in terms of revenue loss.
 
 ## Objective
 
-To identify root causes of customer churn and provide data-driven recommendations to improve retention and customer experience.
+To perform root cause analysis of customer churn and provide actionable insights to improve customer retention and business performance.
 
 ## Tools Used
 
@@ -15,32 +15,39 @@ To identify root causes of customer churn and provide data-driven recommendation
 
 ## Dataset
 
-The dataset includes customer demographics, service usage, satisfaction scores, churn reasons, and financial metrics such as revenue and CLTV. he dataset used for analysis is available in the `data/train.csv` file.
+The dataset contains customer demographics, service usage, satisfaction scores, churn reasons, and financial metrics.
+
+Data file: `data/train.csv`
+
+## SQL Queries
+
+All analysis queries are available in:
+`sql/data_analysis_queries.sql`
 
 ## Key Analysis Performed
 
 * Customer churn distribution analysis
 * Root cause analysis using churn reasons
-* Customer experience analysis using satisfaction score
+* Customer experience analysis using satisfaction scores
 * Revenue impact analysis of churned customers
-* Segmentation analysis based on contract and tenure
+* Segmentation analysis across contract type and tenure
 * Identification of high-risk and high-value customers
 
 ## Key Insights
 
 * Churn is primarily driven by competitive factors such as better device offerings and pricing from competitors
 * Customers with low satisfaction scores are significantly more likely to churn
-* Total revenue loss due to churn is approximately 2.18M
+* Total revenue loss due to churn is approximately **2.18M**
 * High-value customers (CLTV) are also part of the churned segment
 * New customers (low tenure) are more vulnerable to churn
 
 ## Business Recommendations
 
-* Improve competitive positioning through better pricing and device offerings
-* Enhance onboarding and early customer experience
-* Target low-satisfaction customers with retention strategies
-* Introduce bundled services to improve customer engagement
+* Improve competitive positioning through better pricing and product offerings
+* Enhance onboarding experience for new customers
+* Target low-satisfaction customers with proactive retention strategies
+* Bundle value-added services to improve customer engagement
 
 ## Conclusion
 
-This analysis demonstrates how SQL can be used to extract actionable insights, identify root causes, and support business decision-making for improving customer retention.
+This project demonstrates how SQL can be used to extract actionable insights, perform root cause analysis, and support data-driven decision-making in customer retention strategies.
